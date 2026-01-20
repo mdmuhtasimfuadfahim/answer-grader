@@ -1,0 +1,22 @@
+node_modules/
+# .env
+.DS_Store
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+ml-service/venv/
+ml-service/model/*.h5
+ml-service/model/*.json
+
+# Build
+frontend/build/
+dist/
+*.egg-info/
